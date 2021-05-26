@@ -1,13 +1,12 @@
 # salon-api
 salon-api/HELP.md
 salon-api/.gradle
-salon-apibuild/
+salon-api/build/
 !salon-api/gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
 
 # salon-ui
-/salon-ui/node_modules
-salon-ui//coverage
-/salon-ui//build
+#/salon-ui/node_modules
+#/salon-ui//build
 
