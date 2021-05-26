@@ -1,7 +1,6 @@
-package com.example.salonapi.Repository;
+package com.example.salonapi.SalonServiceDetail;
 
-import com.example.salonapi.Entity.SalonServiceDetail;
-import org.springframework.data.jpa.repository.JpaRepository;
+import com.example.salonapi.SalonServiceDetail.SalonServiceDetail;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

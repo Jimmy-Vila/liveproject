@@ -1,7 +1,7 @@
-package com.example.salonapi.AppController;
+package com.example.salonapi;
 
 
-import com.example.salonapi.Repository.SalonRepository;
+import com.example.salonapi.SalonServiceDetail.SalonRepository;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping
 public class SalonController {
 
-    private SalonRepository salonRepository;
 
     @GetMapping("/")
     public String intro() {
@@ -18,13 +17,9 @@ public class SalonController {
     }
 
 
-    public SalonController(SalonRepository salonRepository) {
-        this.salonRepository = salonRepository;
-    }
-
     @GetMapping("/salon")
-    public String orderForm() {
-        return "orderForm";
+    public String test() {
+        return "salon string";
     }
 
 

@@ -1,4 +1,4 @@
-package com.example.salonapi.AppController;
+package com.example.salonapi;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

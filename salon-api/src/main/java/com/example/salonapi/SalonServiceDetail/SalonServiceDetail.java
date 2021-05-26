@@ -1,5 +1,4 @@
-package com.example.salonapi.Entity;
-
+package com.example.salonapi.SalonServiceDetail;
 
 import lombok.*;
 import javax.persistence.Entity;
@@ -16,8 +15,6 @@ public class SalonServiceDetail {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
-
-
     String name;
     String description;
     Long price;

@@ -1,5 +1,6 @@
-package com.example.salonapi.Entity;
+package com.example.salonapi.Slot;
 
+import com.example.salonapi.SalonServiceDetail.SalonServiceDetail;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 

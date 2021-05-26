@@ -1,9 +1,5 @@
 com/example/salonapi/AppController/SwaggerConfig.java
  com.example.salonapi.AppController.SwaggerConfig
-com/example/salonapi/SalonApiApplication.java
- com.example.salonapi.SalonApiApplication
-com/example/salonapi/SalonException.java
- com.example.salonapi.SalonException
 com/example/salonapi/Entity/SalonServiceDetail.java
  com.example.salonapi.Entity.SalonServiceDetail
 com/example/salonapi/Entity/Slot.java
@@ -11,7 +7,11 @@ com/example/salonapi/Entity/Slot.java
  com.example.salonapi.Entity.SlotStatus
 com/example/salonapi/Repository/SalonRepository.java
  com.example.salonapi.Repository.SalonRepository
-com/example/salonapi/Repository/SlotRepository.java
- com.example.salonapi.Repository.SlotRepository
 com/example/salonapi/AppController/SalonController.java
  com.example.salonapi.AppController.SalonController
+com/example/salonapi/SalonException.java
+ com.example.salonapi.SalonException
+com/example/salonapi/Repository/SlotRepository.java
+ com.example.salonapi.Repository.SlotRepository
+com/example/salonapi/SalonApiApplication.java
+ com.example.salonapi.SalonApiApplication
