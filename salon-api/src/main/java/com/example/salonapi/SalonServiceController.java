@@ -24,7 +24,6 @@ public class SalonServiceController {
     @GetMapping("/retrieveAvailableSalonServices")
     @ApiOperation(value = "RetrieveAvailableSalonServicesAPI")
     public List<SalonServiceDetail> retrieveAvailableSalonServicesAPI() {
-
         return salonService.findAll();
     }
 
