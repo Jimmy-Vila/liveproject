@@ -1,4 +1,4 @@
-package com.example.salonapi.SalonServiceDetail;
+package com.example.salonapi.SalonService;
 
 import lombok.*;
 import javax.persistence.Entity;
