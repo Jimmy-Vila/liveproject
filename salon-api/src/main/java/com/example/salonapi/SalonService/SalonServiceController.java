@@ -1,4 +1,4 @@
-package com.example.salonapi;
+package com.example.salonapi.SalonService;
 
 import com.example.salonapi.SalonService.SalonService;
 import com.example.salonapi.SalonService.SalonServiceDetail;
@@ -15,7 +15,6 @@ import java.util.List;
 
 public class SalonServiceController {
     SalonService salonService;
-
     public SalonServiceController(SalonService salonService) {
         this.salonService = salonService;
     }
