@@ -13,6 +13,7 @@ public class SalonService {
         this.salonServiceDetailRepository = salonServiceDetailRepository;
     }
     public List<SalonServiceDetail> findAll() {
+
         return salonServiceDetailRepository.findAll();
     }
 

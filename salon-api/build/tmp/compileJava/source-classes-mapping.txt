@@ -1,21 +1,21 @@
-com/example/salonapi/Slot/SlotRepository.java
- com.example.salonapi.Slot.SlotRepository
-com/example/salonapi/Slot/Slot.java
- com.example.salonapi.Slot.Slot
- com.example.salonapi.Slot.SlotStatus
-com/example/salonapi/SalonException.java
- com.example.salonapi.SalonException
-com/example/salonapi/SalonApiApplication.java
- com.example.salonapi.SalonApiApplication
 com/example/salonapi/SalonService/SalonServiceDetail.java
  com.example.salonapi.SalonService.SalonServiceDetail
-com/example/salonapi/SalonService/SalonDetails.java
- com.example.salonapi.SalonService.SalonDetails
 com/example/salonapi/SalonService/SalonService.java
  com.example.salonapi.SalonService.SalonService
 com/example/salonapi/SalonServiceController.java
  com.example.salonapi.SalonServiceController
+com/example/salonapi/SalonException.java
+ com.example.salonapi.SalonException
+com/example/salonapi/SalonApiApplication.java
+ com.example.salonapi.SalonApiApplication
 com/example/salonapi/SalonService/SalonServiceDetailRepository.java
  com.example.salonapi.SalonService.SalonServiceDetailRepository
+com/example/salonapi/Slot/SlotRepository.java
+ com.example.salonapi.Slot.SlotRepository
 com/example/salonapi/SwaggerConfig.java
  com.example.salonapi.SwaggerConfig
+com/example/salonapi/Slot/Slot.java
+ com.example.salonapi.Slot.Slot
+ com.example.salonapi.Slot.SlotStatus
+com/example/salonapi/SalonService/SalonDetails.java
+ com.example.salonapi.SalonService.SalonDetails

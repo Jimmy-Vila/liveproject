@@ -1,16 +1,21 @@
 import './App.css';
-import Test from "./Components/Test";
+import LoadingIndicatorComponent from "./loader/LoadingIndicatorComponent";
+import AppNotificationComponent from "./Components/AppNotificationComponent";
 
+import ChooseService from "./Components/service/Choose-service";
 function App() {
   return (
     <div >
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a className="navbar-brand" style={{"padding-left":"20px"}}>
-                AR Salon and Day Spa
-            </a>
+        <LoadingIndicatorComponent/>
+        <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a className="navbar-brand" href="/">Ar Salon & Day Spa</a>
         </nav>
-        <Test/>
+        <div role="main" className="container">
+            <div className="padding-container">
+                <ChooseService>fsdf</ChooseService>
+            </div>
+        </div>
+        <AppNotificationComponent/>
     </div>
   );
 }
