@@ -26,5 +26,4 @@ public class SalonServiceController {
         return salonService.findAll();
     }
 
-
 }

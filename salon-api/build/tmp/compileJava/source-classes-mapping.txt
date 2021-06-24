@@ -1,7 +1,13 @@
+com/example/salonapi/Slot/SlotService.java
+ com.example.salonapi.Slot.SlotService
 com/example/salonapi/SalonService/SalonServiceDetail.java
  com.example.salonapi.SalonService.SalonServiceDetail
 com/example/salonapi/SalonService/SalonService.java
  com.example.salonapi.SalonService.SalonService
+com/example/salonapi/Slot/SlotStatus.java
+ com.example.salonapi.Slot.SlotStatus
+com/example/salonapi/Config/SalonDetails.java
+ com.example.salonapi.Config.SalonDetails
 com/example/salonapi/SalonServiceController.java
  com.example.salonapi.SalonServiceController
 com/example/salonapi/SalonException.java
@@ -16,6 +22,3 @@ com/example/salonapi/SwaggerConfig.java
  com.example.salonapi.SwaggerConfig
 com/example/salonapi/Slot/Slot.java
  com.example.salonapi.Slot.Slot
- com.example.salonapi.Slot.SlotStatus
-com/example/salonapi/SalonService/SalonDetails.java
- com.example.salonapi.SalonService.SalonDetails

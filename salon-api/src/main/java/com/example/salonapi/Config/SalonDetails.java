@@ -1,4 +1,4 @@
-package com.example.salonapi.SalonService;
+package com.example.salonapi.Config;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

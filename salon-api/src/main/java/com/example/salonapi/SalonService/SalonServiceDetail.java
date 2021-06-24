@@ -1,6 +1,7 @@
 package com.example.salonapi.SalonService;
 
 import lombok.*;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
