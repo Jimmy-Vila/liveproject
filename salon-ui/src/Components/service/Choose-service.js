@@ -75,11 +75,11 @@ class ChooseService extends Component {
         const {items} =this.state
 
         return (
-            <Fragment>
-                <div className="container-fluid row  text-center">
+            <Fragment >
+                <div className="row text-center mt-5">
                     {items.map((item, index)=>{
                         return(
-                            <div key={index} className="card mb-4 shadow-sm">
+                            <div key={index} className="card shadow-sm col-xl-3 mt-4 m-2">
                                 <div className="card-header">
                                     <h4 className="my-0 font-weight-normal">{item.name}</h4>
                                 </div>
